@@ -45,7 +45,7 @@ function HeroSection({lang}) {
                 <ME/>
              </Col>
              <Col sm={12}  md={5}>
-               <img src="/imgs/3f9dcc1e-5e3d-46f8-97b3-927a68e5d9f3.jpg" className='w-100 rounded-3 mt-5' height={400} alt="user" />
+               <img src="/Portfolio/imgs/3f9dcc1e-5e3d-46f8-97b3-927a68e5d9f3.jpg" className='w-100 rounded-3 mt-5' height={400} alt="user" />
              </Col>
              
           </Row>

@@ -49,10 +49,10 @@ const extraSkills = [
 ]
 
 const brands = [
-    '/imgs/brands/brand1.png','/imgs/brands/brand2.png', '/imgs/brands/brand3.png','/imgs/brands/brand4.png', '/imgs/brands/brand5.png','/imgs/brands/brand6.png', '/imgs/brands/brand7.png',
+    '/Portfolio/imgs/brands/brand1.png','/Portfolio/imgs/brands/brand2.png', '/Portfolio/imgs/brands/brand3.png','/Portfolio/imgs/brands/brand4.png', '/Portfolio/imgs/brands/brand5.png','/Portfolio/imgs/brands/brand6.png', '/Portfolio/imgs/brands/brand7.png',
 ]
 
-const services = ['/imgs/ser1.png','/imgs/ser2.png','/imgs/ser3.png','/imgs/ser4.png','/imgs/ser5.png','/imgs/ser6.png',]
+const services = ['/Portfolio/imgs/ser1.png','/Portfolio/imgs/ser2.png','/Portfolio/imgs/ser3.png','/Portfolio/imgs/ser4.png','/Portfolio/imgs/ser5.png','/Portfolio/imgs/ser6.png',]
 
 
 export {languages , skills , extraSkills , brands , services}

@@ -15,7 +15,7 @@ function Comments({theme}) {
       let circles = []
 
       for(let i = 1 ; i <= createComments().length; i++ ){
-        circles.push(<img key={i} src='/imgs/Ellipse 21.png'/>)
+        circles.push(<img key={i} src='/Portfolio/imgs/Ellipse 21.png'/>)
       }
       return circles
     }

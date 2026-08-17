@@ -35,7 +35,7 @@ function Welcome() {
   return (
    <>
     <div className='welcome wellcomeBg rounded-top-3 text-light d-flex position-relative justify-content-center align-items-center' >
-     <img src="/imgs/Nova.png" className='rounded-pill m-2 position-absolute top-0 start-0' alt="Nova" width={60}/>
+     <img src="/Portfolio/imgs/Nova.png" className='rounded-pill m-2 position-absolute top-0 start-0' alt="Nova" width={60}/>
          <div className='text display-5 fw-bold text-light'>
             <i> <TypeAnimation style={{fontSize:'30px'}} speed={30} cursor={false} omitDeletionAnimation repeat='2' sequence={texts} /></i>
          </div>
