@@ -10,5 +10,5 @@ export default defineConfig({
       '%' : path.dirname('./src')
     }
   },
-  base : "/Portfolio/"
+  base : '/Portfolio/'
 })
