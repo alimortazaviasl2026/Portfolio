@@ -34,7 +34,7 @@ function PersonalInformation() {
                  <span className='text-success'>availLable</span>
             </div>
             <div className='d-flex my-2  justify-content-between '>
-                 <span className='text-bg-warning p-1 rounded-1'>Address :</span>
+                 <span className='text-bg-warning p-1 rounded-1'>Address:</span>
                  <span>Tehran,Tehran</span>
             </div>
         </div>
