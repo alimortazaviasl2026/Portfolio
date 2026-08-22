@@ -1,17 +1,24 @@
 import React, { Fragment, Suspense, useEffect, useState } from 'react'
+import { useRef } from 'react';
+import { lazy } from 'react';
 import './App.css'
+
 import { Col, Container, Row } from 'react-bootstrap'
 import { GiAcousticMegaphone, GiBirdLimb } from "react-icons/gi";
 import { SlArrowUp } from "react-icons/sl";
 import Switch from '@mui/material/Switch';
-import Clock from 'react-clock';
 import 'react-clock/dist/Clock.css';
+import Clock from 'react-clock';
 import { FiClock, FiShuffle } from "react-icons/fi";
 import { IoIosCloseCircleOutline } from "react-icons/io";
-import Services from './Components/features/services/Services';
-import ScrollLine from './Components/common/ScrollLine';
 import i18next from 'i18next';
 import { useTranslation } from 'react-i18next';
+import { Cursor } from "motion-plus/react"
+import AnimatedCursor from 'react-animated-cursor';
+import { motion } from 'motion/react';
+
+import Services from './Components/features/services/Services';
+import ScrollLine from './Components/common/ScrollLine';
 import Welcome from './Components/common/Welcome';
 import UserSiderBarInformation from './Components/features/UserSiderBarInformation/UserSiderBarInformation';
 import HeroSection from '%/heroSection/HeroSection';
@@ -26,13 +33,12 @@ import ActionConatiner from './Components/features/ActionConatiner/ActionConatin
 import useLocalStorage from './Hooks/useLocalstorage';
 import HistoryContainer from './Components/features/HistoryContainer/HistoryContainer';
 import Gallery from './Components/features/Gallery/Gallery';
-import { Cursor } from "motion-plus/react"
-import AnimatedCursor from 'react-animated-cursor';
-import { lazy } from 'react';
-import { motion } from 'motion/react';
-import { useRef } from 'react';
 import MetaData from './Components/common/MetaData';
 const OverWiewChart =  lazy( async ()=> import('./Components/features/OverWiewChart/OverWiewChart'))
+
+
+
+
 
 function App() {
   
@@ -186,18 +192,5 @@ export default App
 
 
 
-// const [value, setValue] = useState(new Date());
-
-
-
-// startTransition(()=>{
-      // setTimeout(()= setState(),4000)
-  // })
-  
-  // setTimeout(()={
-    // startTransition(()=>{
-      // setState()
-  // })
-  // } ,4000)
 
   
